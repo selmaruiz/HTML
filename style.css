@@ -1,0 +1,81 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+background-color: rgb(215, 199, 246);
+width: 100%;
+margin: 10px 0 10px 0;
+}
+header ul{
+list-style: none;
+display: flex;
+flex-direction: row;
+font-size: 22px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: blueviolet;
+}
+header ul li{
+margin: 30px;
+}
+
+.inicio h1{
+text-align: center;
+color: rgb(57, 164, 57);
+}
+.inicio h2{
+    text-align: center;
+    color: rgb(108, 105, 105);
+}
+
+img {
+    width: 150px;
+}
+h1{
+    font-size: 23px;
+color: darkorange;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+}
+p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+h2{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(2, 2, 2);
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.caja img{
+    border-radius: 50%;
+}
+#contacto{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#contacto iframe{
+    padding: 100px;
+    margin: 100px;
+    
+}
